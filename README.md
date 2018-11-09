@@ -6,7 +6,10 @@ you need to have Node installed - you can download it from [here](https://nodejs
 
 then simply run 
 
-You have two options to run this script. The first is to run the wide one which will crawl all links there is available to it , you can do it by running:
+You have two options to run this script. 
+
+## Regular mode
+The first is to run the wide one which will crawl all links there is available to it , you can do it by running:
 
 ```sh
 $ git clone https://github.com/obiwankenoobi/startupMapCrawlers.git
@@ -17,6 +20,7 @@ $ node --max-old-space-size=8192 lib.js
 
 It will crawl and add all emails to new file called `emails.txt`
 
+## Sniper mode
 You also can run the sniper mode which only crawl and add emails with the name of the startup in it. You can do it by running
 ```sh
 $ git clone https://github.com/obiwankenoobi/startupMapCrawlers.git
