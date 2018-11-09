@@ -1,0 +1,22 @@
+{
+  "name": "crawler",
+  "version": "0.0.0",
+  "description": "use this tool to extract ALL emails from [mappedinisrael](https://mappedinisrael.com/) the biggest list for Israeli startups!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obiwankenoobi/startupMapCrawlers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obiwankenoobi/startupMapCrawlers/issues"
+  },
+  "homepage": "https://github.com/obiwankenoobi/startupMapCrawlers#readme",
+  "runtimeArgs": [
+    "--max-old-space-size=8192"
+]
+}

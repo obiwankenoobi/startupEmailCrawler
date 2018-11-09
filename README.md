@@ -4,30 +4,19 @@ use this tool to extract ALL emails from [mappedinisrael](https://mappedinisrael
 ## to use
 you need to have Node installed - you can download it from [here](https://nodejs.org/en/download/)
 
-then simply run 
-
-You have two options to run this script. 
-
-## Regular mode
-The first is to run the wide one which will crawl all links there is available to it , you can do it by running:
+then
 
 ```sh
 $ git clone https://github.com/obiwankenoobi/startupMapCrawlers.git
 $ cd path/to/file
-$ npm install
-$ node --max-old-space-size=8192 lib.js   
+$ npm install 
 ```
+now after you cloned the library you have 2 options to run the script:
 
-It will crawl and add all emails to new file called `emails.txt`
+## `--reg`
+`node index.js --reg` will start the script on regular mode. It means the crawler will run through any link there is available to it which will result in more emails but can contain some emails not related to the actual startup.
 
-## Sniper mode
-You also can run the sniper mode which only crawl and add emails with the name of the startup in it. You can do it by running
-```sh
-$ git clone https://github.com/obiwankenoobi/startupMapCrawlers.git
-$ cd path/to/file
-$ npm install
-$ node --max-old-space-size=8192 libSniper.js   
-```
-It will save the results to `emailsSniper.txt`
+## `--sniper` 
+`node index.js --sniper` will start the script on sniper mode which will only crawl links related to the name of the startup which will result in less emails but all will be related to the actual startup it crawled.
 
 In later versions I will add auto email to the extractet emails. Meanwhile enjoy this (:
