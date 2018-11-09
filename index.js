@@ -1,7 +1,7 @@
 
 
-const sniper = require("./libSniper")
-const regular = require("./lib")
+const sniper = require("./lib/sniper")
+const regular = require("./lib/regular")
 
 if (process.argv[2] == "--sniper") {
     sniper()
