@@ -15,7 +15,7 @@ now after you cloned and installed the tool you have 2 options to run the script
 
 ### `--reg <country>`
 ```sh 
-shcrawler --reg <country>
+crawler --reg <country>
 ``` 
 will start the script on regular mode. It means the crawler will run through any link there is available to it which will result in more emails but can contain some emails not related to the actual startup.
 
