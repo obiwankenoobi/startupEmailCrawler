@@ -1,30 +1,22 @@
-const start = require("./lib/lib");
+#!/usr/bin/env node
 
-switch (process.argv[2]) {
-  case "--sniper":
-    switch (process.argv[3]) {
-      case "--usa":
-        start("https://www.startups-list.com");
-        break;
-      case "--israel":
-        start("http://mappedinisrael.com/all-companies");
-        break;
-      default:
-        console.log("please choose a country (--usa or --israel)");
+const start = require("./lib/lib");
+const program = require("commander");
+
+program.version("0.0.1").description("extract startups emails in ease!");
+
+program
+  .arguments("<mode> <country>")
+  .description("start crawling the web!")
+  .action((mode, country) => {
+    if (mode != "sniper" && mode != "reg") {
+      return console.log("mode can be `reg` or `sniper`");
     }
-    break;
-  case "--reg":
-    switch (process.argv[3]) {
-      case "--usa":
-        start("https://www.startups-list.com");
-        break;
-      case "--israel":
-        start("http://mappedinisrael.com/all-companies");
-        break;
-      default:
-        console.log("please choose a country (--usa or --israel)");
+    if (country != "usa" && country != "israel") {
+      return console.log("country can be 'israel' or `usa`");
+    } else {
+      start(mode, country);
     }
-    break;
-  default:
-    console.log("choose mode (--reg or --sniper)");
-}
+  });
+
+program.parse(process.argv);

@@ -1,6 +1,8 @@
 {
   "name": "crawler",
   "version": "0.0.0",
+  "preferGlobal": true,
+  "bin": "./index.js",
   "description": "use this tool to extract ALL emails from [mappedinisrael](https://mappedinisrael.com/) the biggest list for Israeli startups!",
   "main": "index.js",
   "scripts": {
@@ -20,6 +22,7 @@
     "--max-old-space-size=8192"
   ],
   "dependencies": {
+    "commander": "^2.19.0",
     "progress": "^2.0.1"
   }
 }
