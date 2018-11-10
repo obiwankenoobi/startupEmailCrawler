@@ -18,5 +18,8 @@
   "homepage": "https://github.com/obiwankenoobi/startupMapCrawlers#readme",
   "runtimeArgs": [
     "--max-old-space-size=8192"
-]
+  ],
+  "dependencies": {
+    "progress": "^2.0.1"
+  }
 }
