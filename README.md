@@ -38,4 +38,3 @@ example for execution:
 crawler sniper global
 ```
 
-In later versions I will add auto email to the extractet emails. Meanwhile enjoy this (:
