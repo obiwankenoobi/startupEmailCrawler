@@ -1,5 +1,5 @@
 # startupEmailCrawler
-use this tool to extract ALL emails from [mappedinisrael](https://mappedinisrael.com/) the biggest list for Israeli startups! 
+use this tool to extract ALL emails from the biggest database of startups out there! 
 
 ## to use
 you need to have Node installed - you can download it from [here](https://nodejs.org/en/download/)
