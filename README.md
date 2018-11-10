@@ -1,4 +1,4 @@
-# startupEmailCrawlers
+# startupEmailCrawler
 use this tool to extract ALL emails from [mappedinisrael](https://mappedinisrael.com/) the biggest list for Israeli startups! 
 
 ## to use
