@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "preferGlobal": true,
   "bin": "./index.js",
-  "description": "use this tool to extract ALL emails from [mappedinisrael](https://mappedinisrael.com/) the biggest list for Israeli startups!",
+  "description": "use this tool to extract emails from startups around the world!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
