@@ -12,8 +12,8 @@ program
     if (mode != "sniper" && mode != "reg") {
       return console.log("mode can be `reg` or `sniper`");
     }
-    if (country != "usa" && country != "israel") {
-      return console.log("country can be 'israel' or `usa`");
+    if (country != "global" && country != "israel") {
+      return console.log("country can be 'israel' or `global`");
     } else {
       start(mode, country);
     }

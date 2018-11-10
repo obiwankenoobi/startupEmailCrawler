@@ -29,13 +29,13 @@ will start the script on sniper mode which will only crawl links related to the 
 ### `<country>`
 
 the `<country>` argument will tell the tool which country you want to crawl. For now we support the countries below:
-* `usa`
+* `global`
 * `israel`
 
 example for execution:
 
 ```sh
-crawler sniper usa
+crawler sniper global
 ```
 
 In later versions I will add auto email to the extractet emails. Meanwhile enjoy this (:
