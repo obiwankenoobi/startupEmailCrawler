@@ -25,6 +25,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "commander": "^2.19.0",
+    "nodemailer": "^4.6.8",
     "progress": "^2.0.1",
     "request": "^2.88.0"
   }
