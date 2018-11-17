@@ -28,5 +28,6 @@
     "nodemailer": "^4.6.8",
     "progress": "^2.0.1",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {}
 }

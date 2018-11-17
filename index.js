@@ -2,6 +2,11 @@
 
 const start = require("./lib/lib");
 const program = require("commander");
+// const memeye = require('memeye');
+
+
+//memeye(); // GOTO => http://localhost:23333 to monitor heap 
+
 
 program.version("0.0.1").description("extract startups emails in ease!");
 
